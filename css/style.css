@@ -45,6 +45,11 @@ footer {
     padding: 16px;
     background-color: #1f2937;
     color: #f9faf8;
+    flex: 0 0 auto;
+}
+
+main {
+    flex: 1;
 }
 
 footer {
