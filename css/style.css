@@ -62,6 +62,7 @@ footer {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .right-links {
@@ -79,6 +80,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .header-text {
@@ -122,6 +124,7 @@ footer {
     align-items: center;
     gap: 32px;
     color: #1f2937;
+    margin: 0 64px;
 }
 
 .portraits h2 {
@@ -135,6 +138,7 @@ footer {
     flex-wrap: wrap;
     justify-content: space-evenly;
     gap: 24px;
+    margin: 16px 64px;
 }
 
 .card {
