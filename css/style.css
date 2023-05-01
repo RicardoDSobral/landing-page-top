@@ -42,10 +42,13 @@ header,
 footer {
     display: flex;
     flex-direction: column;
-    padding: 16px;
     background-color: #1f2937;
     color: #f9faf8;
     flex: 0 0 auto;
+}
+
+.side-padding {
+    padding: 0 20%;
 }
 
 main {
@@ -60,7 +63,7 @@ footer {
 
 .hero {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -79,7 +82,7 @@ footer {
 .cabecalho {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
@@ -157,4 +160,12 @@ footer {
     border-radius: 16px;
     width: 200px;
     height: 200px;
+}
+
+.quote {
+ background-color: #e5e7eb;
+ font-size: 36px;
+ font-style: italic;
+ font-weight: lighter;
+ color: #1f2937;  
 }
