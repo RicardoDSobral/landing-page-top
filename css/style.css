@@ -162,10 +162,27 @@ footer {
     height: 200px;
 }
 
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;  
+}
+
 .quote {
- background-color: #e5e7eb;
- font-size: 36px;
- font-style: italic;
- font-weight: lighter;
- color: #1f2937;  
+    margin: 36px 0 -16px 0;
+}
+
+.quote-author {
+    align-self: stretch;
+    display: flex;
+    justify-content: end;
+    font-size: 18px;
+    margin-bottom: 36px;
+    padding: 16px;
 }
