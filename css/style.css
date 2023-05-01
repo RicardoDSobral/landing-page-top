@@ -48,7 +48,7 @@ footer {
 }
 
 .side-padding {
-    padding: 0 20%;
+    padding: 0 15%;
 }
 
 main {
@@ -84,6 +84,7 @@ footer {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding: 64px 0px;
 }
 
 .header-text {
@@ -184,5 +185,5 @@ footer {
     justify-content: end;
     font-size: 18px;
     margin-bottom: 36px;
-    padding: 16px;
+    padding: 16px 16px 0;
 }
